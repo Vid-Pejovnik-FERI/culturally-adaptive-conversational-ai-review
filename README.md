@@ -1,46 +1,99 @@
-# Culturally Adaptive Conversational AI — Scoping Review Materials
+# Culturally Adaptive Conversational AI Review
 
-This repository contains supplementary research materials for the study on culturally adaptive chatbots and conversational AI systems conducted by Vid Pejovnik at the Faculty of Electrical Engineering and Computer Science, University of Maribor.
+Supplementary materials and research data for a scoping review of culturally adaptive conversational AI and human–AI interaction.
+
+## Overview
+
+This repository contains the materials used in the study:
+
+**Culturally Adaptive Conversational AI: A Scoping Review and Design Implications for Human–AI Interaction**
+
+The study reviews research on culturally adaptive chatbots and conversational AI systems and examines:
+
+- how culture is conceptualised and operationalised,
+- how cultural adaptation is implemented,
+- how culturally adaptive systems are evaluated,
+- how human participants are involved,
+- and which design implications emerge for future culturally adaptive conversational AI systems.
+
+The review was conducted as a scoping review using searches in Scopus, Web of Science Core Collection, IEEE Xplore, and PubMed.
+
+The final review includes **51 studies**.
 
 ## Repository contents
 
-- `paper/IRD_Slovenian.pdf` — original Slovenian Individual Research Work (IRD) on which the conference paper is based.
-- `search_strategy/search_strings.md` — database-specific search strings used for Scopus, Web of Science Core Collection, IEEE Xplore, and PubMed.
-- `search_strategy/review_scope.md` — review scope, eligibility criteria, and PRISMA-style study-selection counts.
-- `data/master_review_analysis_workbook_FINAL_RECHECKED.xlsx` — final rechecked review-analysis workbook used for the synthesis.
-- `references/included_studies.md` — bibliographic note explaining how included studies are referenced and why article PDFs are not redistributed here.
-- `figures/README.md` — placeholder for manually recreated figures used in the conference paper.
+- `IRD_Slovenian.pdf`  
+  Original Slovenian Individual Research Work on which the conference paper is based.
 
-## Review scope
+- `search_strategy/`  
+  Search strings used for Scopus, Web of Science, IEEE Xplore, and PubMed.
 
-The review focuses on culturally adaptive chatbots and other conversational AI systems. Searches covered publications from 2021–2026, written in English, and targeted journal articles, reviews, and conference/proceedings papers. A pragmatic threshold of at least 2 citations was used during the original review process.
+- `screening/`  
+  Inclusion and exclusion criteria, PCC framework, and study-selection information.
 
-The final review contained 51 included studies after deduplication, title/abstract screening, full-text retrieval, and eligibility assessment.
+- `data/`  
+  Structured extraction and analysis materials used for the review.
 
-## Reproducibility and source access
+- `references/included_studies.md`  
+  List of the 51 included studies with DOI links.
 
-The repository does **not** redistribute copyrighted full-text articles. Instead, the conference paper and supplementary materials should cite the original publications through their DOI or official publisher page. This avoids redistributing material for which the author may not hold reuse rights.
+- `figures/`  
+  Materials related to figures used or prepared for the conference paper.
 
-The extraction workbook contains structured data derived from the reviewed literature. Users of the dataset should verify any value against the cited source article before reusing it for a new scientific claim.
+## Study selection
 
-## Generative AI disclosure
+The database search identified 210 records.
 
-Generative AI was used as an assistive tool during parts of the research and manuscript-preparation process. Its use included translation from Slovenian to English, language editing, restructuring assistance, and additional interpretive checking in isolated cases where article eligibility, interpretation, or extraction/coding was uncertain. Final inclusion decisions, extracted values, numerical summaries, interpretations, and conclusions remained the responsibility of the researcher and were manually checked against the source material.
+After deduplication:
 
-No generative-AI-created figures, charts, diagrams, or illustrations are intended for the final conference paper.
+- 84 duplicate records were removed,
+- 126 records were screened by title and abstract,
+- 69 records were excluded,
+- 57 reports were sought for full-text retrieval,
+- 2 reports could not be retrieved,
+- 55 full-text reports were assessed,
+- 4 were excluded after full-text assessment,
+- 51 studies were included in the final review.
+
+## Reproducibility
+
+The repository is intended to provide supplementary and reproducibility materials for the review.
+
+The original full-text articles are not redistributed in this repository. Where possible, the included studies are referenced using DOI links in `references/included_studies.md`.
+
+## Use of generative AI
+
+ChatGPT (OpenAI) was used as a supporting tool during parts of the research and manuscript preparation process.
+
+Its use included:
+
+- translation of selected material from Slovenian to English,
+- language revision and sentence-level rephrasing,
+- grammar and spelling checking,
+- assistance with restructuring material for the conference manuscript,
+- and additional interpretive or cross-checking support in isolated cases where there was uncertainty regarding article eligibility, interpretation, or extraction/coding.
+
+Generative AI did not independently determine study inclusion or exclusion decisions. Final eligibility decisions, extracted values, numerical summaries, interpretations, and conclusions were reviewed and confirmed by the researcher.
+
+No generative-AI-created figures, diagrams, or scientific illustrations are used in the conference manuscript.
 
 ## Author
 
 **Vid Pejovnik**  
 Faculty of Electrical Engineering and Computer Science  
 University of Maribor  
-Koroška cesta 46, 2000 Maribor, Slovenia  
-vid.pejovnik1@um.si
+Maribor, Slovenia
+
+Email: vid.pejovnik1@um.si
 
 ## Citation
 
-A formal citation for the conference paper will be added here after publication or acceptance.
+A formal citation for the conference paper will be added after publication.
+
+Until then, please cite this repository using the GitHub repository URL or the archived release DOI, if available.
 
 ## License
 
-No explicit license has been selected yet. Until a license is added, standard copyright applies to original repository materials. Third-party publications remain subject to their respective publishers' copyright terms.
+See the `LICENSE` file for the terms that apply to the original materials in this repository.
+
+Third-party publications, DOI-linked articles, and externally copyrighted material remain subject to their original copyright and licensing conditions.
