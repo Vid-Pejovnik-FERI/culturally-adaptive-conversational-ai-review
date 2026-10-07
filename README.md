@@ -88,9 +88,11 @@ Email: vid.pejovnik1@um.si
 
 ## Citation
 
-A formal citation for the conference paper will be added after publication.
+The version corresponding to the HCI SI 2026 manuscript is available as:
 
-Until then, please cite this repository using the GitHub repository URL or the archived release DOI, if available.
+Release: `v1.0-hci-si-2026`
+
+A formal citation for the conference paper will be added after publication.
 
 ## License
 
