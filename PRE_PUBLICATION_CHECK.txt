@@ -1,0 +1,9 @@
+Workbook inspection for public-release screening (automated, not definitive):
+
+data/master_review_analysis_workbook_FINAL_RECHECKED.xlsx: 530,948 bytes; comments=0; external links=0; embedded objects=0
+verification/archive/round07_source_level_evidence.xlsx: 425,647 bytes; comments=0; external links=0; embedded objects=0
+verification/archive/round11_57_claims_fulltext_adjudicated.xlsx: 635,649 bytes; comments=0; external links=0; embedded objects=0
+verification/archive/round13_140_claims_adjudicated.xlsx: 129,979 bytes; comments=0; external links=0; embedded objects=0
+verification/round14_final_codebook_review.xlsx: 193,000 bytes; comments=0; external links=0; embedded objects=0
+
+This is a structural scan. It does NOT check the rights of source quotations or privacy of free-text cells.
