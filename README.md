@@ -1,101 +1,64 @@
 # Culturally Adaptive Conversational AI Review
 
-Supplementary materials and research data for a scoping review of culturally adaptive conversational AI and human–AI interaction.
+Supplementary research materials for **Culturally Adaptive Conversational AI: A Scoping Review and Design Implications for Human–AI Interaction** (HCI SI 2026).
 
-## Overview
+The review covers **51 publications** on culturally adaptive chatbots and conversational AI. It examines cultural representations, adaptation approaches, evaluation practices, human involvement, and implications for human–AI interaction.
 
-This repository contains the materials used in the study:
+## Repository structure
 
-**Culturally Adaptive Conversational AI: A Scoping Review and Design Implications for Human–AI Interaction**
+- [`methodology/culturally_adaptive_chatbots_review_workbook_v2.xlsx`](methodology/culturally_adaptive_chatbots_review_workbook_v2.xlsx) — original blank extraction template and initial coding framework (dated 16 April 2026). This documents the early framework; its metadata does not independently authenticate every later coding decision.
+- [`data/master_review_analysis_workbook_FINAL_RECHECKED.xlsx`](data/master_review_analysis_workbook_FINAL_RECHECKED.xlsx) — final rechecked 51-study extraction and descriptive analysis.
+- [`verification/round14_final_codebook_review.xlsx`](verification/round14_final_codebook_review.xlsx) — subsequent claim-level codebook reconciliation and evidence-status audit. See [`verification/README.md`](verification/README.md).
+- [`search_strategy/`](search_strategy/) — database searches and related search documentation.
+- [`references/`](references/) — included-study references and links.
+- [`paper/`](paper/) — manuscript-related materials.
+- [`RELEASE_NOTES_v1.1.md`](RELEASE_NOTES_v1.1.md) — changes in the v1.1 evidence-audit update.
 
-The study reviews research on culturally adaptive chatbots and conversational AI systems and examines:
+## Methods and selection
 
-- how culture is conceptualised and operationalised,
-- how cultural adaptation is implemented,
-- how culturally adaptive systems are evaluated,
-- how human participants are involved,
-- and which design implications emerge for future culturally adaptive conversational AI systems.
+Database searches were conducted on **16 April 2026** in Scopus, Web of Science Core Collection, IEEE Xplore, and PubMed. The documented selection flow was:
 
-The review was conducted as a scoping review using searches in Scopus, Web of Science Core Collection, IEEE Xplore, and PubMed.
+| Stage | Records |
+|---|---:|
+| Identified | 210 |
+| Duplicates removed | 84 |
+| Screened | 126 |
+| Excluded at title/abstract | 69 |
+| Full texts sought | 57 |
+| Not retrieved | 2 |
+| Full texts assessed | 55 |
+| Excluded after full-text review | 4 |
+| Included | **51** |
 
-The final review includes **51 studies**.
+The final sample comprises 42 direct-fit and 9 adjacent-fit publications. A two-citation scope-control threshold introduces selection and recency limitations; the results should not be interpreted as field-wide prevalence estimates.
 
-## Repository contents
+## Reading the quantitative results
 
-- `IRD_Slovenian.pdf`  
-  Original Slovenian Individual Research Work on which the conference paper is based.
+The manuscript's mechanism and metric tables report **coded literature-presence categories**, not counts of independently confirmed implementations or measured outcomes. Categories may overlap across the 51 publications.
 
-- `search_strategy/`  
-  Search strings used for Scopus, Web of Science, IEEE Xplore, and PubMed.
+The Round 14 audit adds a stricter, source-oriented distinction between implemented, evaluated, proposed, discussed, measured, phase-qualified, or insufficiently supported evidence. These stricter tallies remain **provisional** and must not be presented as definitive implemented-only or measured-only rates.
 
-- `screening/`  
-  Inclusion and exclusion criteria, PCC framework, and study-selection information.
+For example, 37 publications were coded in the broad SUS/usability family, but only three publications were confirmed in the audit to have administered the standard ten-item System Usability Scale. These are different measures.
 
-- `data/`  
-  Structured extraction and analysis materials used for the review.
+## Versions
 
-- `references/included_studies.md`  
-  List of the 51 included studies with DOI links.
+- [`v1.0-hci-si-2026`](https://github.com/Vid-Pejovnik-FERI/culturally-adaptive-conversational-ai-review/releases/tag/v1.0-hci-si-2026) — original analytical release.
+- [`v1.1-hci-si-2026-evidence-audit`](https://github.com/Vid-Pejovnik-FERI/culturally-adaptive-conversational-ai-review/releases/tag/v1.1-hci-si-2026-evidence-audit) — addition of the Round 14 evidence-verification materials and codebook documentation.
 
-- `figures/`  
-  Materials related to figures used or prepared for the conference paper.
+The existing v1.0 and v1.1 Git tags are historical snapshots. Later documentation changes on `main` do not automatically alter either snapshot.
 
-## Study selection
+## Reuse and reproducibility
 
-The database search identified 210 records.
+The original publications are not redistributed here. Consult their DOI or publisher links and respect third-party copyrights and licences. The verification workbooks may include brief source-derived notes and qualified decisions; users should consult the supporting articles before treating an attribution as independently confirmed.
 
-After deduplication:
-
-- 84 duplicate records were removed,
-- 126 records were screened by title and abstract,
-- 69 records were excluded,
-- 57 reports were sought for full-text retrieval,
-- 2 reports could not be retrieved,
-- 55 full-text reports were assessed,
-- 4 were excluded after full-text assessment,
-- 51 studies were included in the final review.
-
-## Reproducibility
-
-The repository is intended to provide supplementary and reproducibility materials for the review.
-
-The original full-text articles are not redistributed in this repository. Where possible, the included studies are referenced using DOI links in `references/included_studies.md`.
+See the repository [`LICENSE`](LICENSE) for licensing information about repository-owned material; third-party content retains its original rights.
 
 ## Use of generative AI
 
-ChatGPT (OpenAI) was used as a supporting tool during parts of the research and manuscript preparation process.
-
-Its use included:
-
-- translation of selected material from Slovenian to English,
-- language revision and sentence-level rephrasing,
-- grammar and spelling checking,
-- assistance with restructuring material for the conference manuscript,
-- and additional interpretive or cross-checking support in isolated cases where there was uncertainty regarding article eligibility, interpretation, or extraction/coding.
-
-Generative AI did not independently determine study inclusion or exclusion decisions. Final eligibility decisions, extracted values, numerical summaries, interpretations, and conclusions were reviewed and confirmed by the researcher.
-
-No generative-AI-created figures, diagrams, or scientific illustrations are used in the conference manuscript.
+ChatGPT (OpenAI) assisted with language revision, translation, restructuring, formatting, and occasional interpretive cross-checking during the review and manuscript preparation. Final research decisions and conclusions are the responsibility of the human authors. See the manuscript's Generative AI declaration for the full description.
 
 ## Author
 
 **Vid Pejovnik**  
-Faculty of Electrical Engineering and Computer Science  
-University of Maribor  
-Maribor, Slovenia
-
-Email: vid.pejovnik1@um.si
-
-## Citation
-
-The version corresponding to the HCI SI 2026 manuscript is available as:
-
-Release: `v1.0-hci-si-2026`
-
-A formal citation for the conference paper will be added after publication.
-
-## License
-
-See the `LICENSE` file for the terms that apply to the original materials in this repository.
-
-Third-party publications, DOI-linked articles, and externally copyrighted material remain subject to their original copyright and licensing conditions.
+Faculty of Electrical Engineering and Computer Science, University of Maribor, Slovenia  
+vid.pejovnik1@um.si
